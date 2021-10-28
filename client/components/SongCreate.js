@@ -39,6 +39,7 @@ const mutation = gql`
   mutation AddSong($title: String){
     addSong(title: $title){
         title
+        id
     }
   }
 `;
